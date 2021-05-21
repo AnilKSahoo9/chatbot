@@ -1,0 +1,139 @@
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sapio_chatbot_form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="validation.js"></script>
+</head>
+
+<body>
+    <div class="inner-container">
+    <div class="logo">
+        <img src="./logo.jpeg" alt="logo" width="150px" height="90px">
+    </div>
+    <div class="container">
+        
+        <div class="container-fluid">
+            <form action="score.html" method="POST">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-11">
+                    <div class="card card0 rounded-0">
+                        <div class="row">
+                            <div class="col-md-5 d-md-block d-none p-0 box" style="height:100%; background-color: whitesmoke; border-radius: 10px;">
+                                <div class="card rounded-0 border-0 card1" id="bill">
+                                    <h3 id="heading1">Personal Details</h3>
+                                    <div class="form-row">
+                                        <div class="input-data">
+                                            <input type="text" id="name">
+                                            <div class="underline"></div>
+                                            <label for="name">Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="input-data">
+                                            <input type="email" id="email">
+                                            <div class="underline"></div>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="input-data">
+                                            <input type="text">
+                                            <div class="underline"></div>
+                                            <label for="city">City</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="input-data">
+                                            <input type="tel" pattern="[0-9]{10}" id="contactnumber">
+                                            <div class="underline"></div>
+                                            <label for="contactnumber">Contact Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-12 p-0 box">
+                                <div class="card rounded-0 border-0 card2" id="paypage">
+                                    <div class="form-card">
+                                        <h2 id="heading2" class="text-danger">Quiz</h2>
+                                        <div>
+                                            <span class="question_span">How are you feeling? Please select what you think?</span>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check1" name="check" checked>
+                                                <label for="check1">Happy</label>
+                                            </div>
+                            
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check2" name="check">
+                                                <label for="check1">Sad</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check3" name="check">
+                                                <label for="check3">Irritate</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check4" name="check" value="Joyful">
+                                                <label for="check4">Joyful</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check5" name="check" value="Entertain">
+                                                <label for="check5">Entertain</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check6" name="check" value="Fear">
+                                                <label for="check6">Fear</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check7" name="check" value="Angry">
+                                                <label for="check7">Angry</label>
+                            
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check8" name="check" value="Doubtful">
+                                                <label for="check8">Doubtful</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check9" name="check" value="Worried">
+                                                <label for="check9">Worried</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check10" name="check" value="Cry">
+                                                <label for="check10">Cry</label>
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check11" name="check" value="Confused">
+                                                <label for="check11">Confused</label>
+                            
+                                            </div>
+                                            <div class="check_data">
+                                                <input type="checkbox" id="check12" name="check" value="Surprise">
+                                                <label for="check12">Surprise</label>
+                                            </div>
+                            
+                            
+                                            <div class="form-row submit-btn">
+                                                <div class="input-data">
+                                                    <div class="inner"></div>
+                                                    <input type="submit" value="submit" >
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
